@@ -1,1 +1,5 @@
-site_name: My Docs
+site_name: ManaStack
+site_url: http://manastack.com/
+theme: readthedocs
+pages:
+- ['index.md', 'Introduction']
