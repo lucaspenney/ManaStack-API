@@ -1,3 +1,1 @@
 # ManaStack-api
-
-Index
