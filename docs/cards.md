@@ -2,7 +2,7 @@
 
 To perform a basic card search, send a GET request to the card search endpoint: 
 
-`manastack.com/api/cardSearch?name=<name>`
+`api.manastack.com/cardSearch?name=<name>`
 
 You must provide at least one parameter for results to be returned.
 
@@ -20,7 +20,7 @@ You must provide at least one parameter for results to be returned.
 
 You can also access a single card by it's ManaStack ID
 
-`manastack.com/api/card?id=<id>`
+`api.manastack.com/card?id=<id>`
 
 This doesn't return any extra information, but allows you to store cards by their ID only and then retrieve the card again later.
 
