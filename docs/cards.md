@@ -24,6 +24,12 @@ You can also access a single card by it's ManaStack ID
 
 This doesn't return any extra information, but allows you to store cards by their ID only and then retrieve the card again later.
 
+#Packs
+
+You can get a random pack of cards from a particular set by passing the set code as follows.
+
+`api.manastack.com/pack/<set>`
+
 
 #Card Images
 
