@@ -7,3 +7,5 @@ pages:
 - ['decks.md', 'Decks']
 - ['sets.md', 'Sets']
 - ['compute.md', 'Compute']
+- ['simulation.md', 'Simulation']
+- ['issues.md', 'Known Issues']
