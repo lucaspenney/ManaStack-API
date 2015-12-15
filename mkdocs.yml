@@ -2,10 +2,19 @@ site_name: ManaStack
 site_url: http://manastack.com/
 theme: readthedocs
 pages:
-- ['index.md', 'Introduction']
-- ['cards.md', 'Cards']
-- ['decks.md', 'Decks']
-- ['sets.md', 'Sets']
-- ['compute.md', 'Compute']
-- ['simulation.md', 'Simulation']
-- ['issues.md', 'Known Issues']
+    - Introduction: 'index.md'
+    - ManaStack API: 
+        - 'Cards': 'cards.md'
+        - 'Decks': 'decks.md'
+        - 'Sets' : 'sets.md'
+    - Compute Engine:
+        - 'Compute': 'compute.md'
+        - 'Simulation': 'simulation.md'
+        - 'Known Issues': 'issues.md'
+#- ['index.md', 'Introduction']
+#- ['cards.md', 'Cards']
+#- ['decks.md', 'Decks']
+#- ['sets.md', 'Sets']
+#- ['compute.md', 'Compute']
+#- ['simulation.md', 'Simulation']
+#- ['issues.md', 'Known Issues']
