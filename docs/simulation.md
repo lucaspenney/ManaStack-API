@@ -1,10 +1,12 @@
 #Simulating Decks
 
-Using the Compute engine, you can simulate games between decks using AI players.  
+Using the Compute engine, you can simulate games between decks using AI or real players.
 
 *Warning: The below methods are subject to change in the near future*
 
 #AI vs AI Simulation
+
+The compute engine assumes Magic games of two players, and will fill any non-human player slots with AI players. To simulate a game between AI, you simply need to pass in the decks. 
 
 Simulate single game with 2 AI players
 
@@ -33,3 +35,5 @@ Then, send the index of the action you wish to take based on the possible moves.
 `api.manastack.com/simulate?game=<id>&player=player1&action=<actionindex>`
 
 Keep repeating this process until there are no actions to take. Constantly retrieving the game history after each action gives you a reliable way to display the game state, as it will update for both player and AI actions. 
+
+Note that there is a session timeout for games with human players - failure to take an action within a certain time period will cause the server to assume that you're no longer playing, and the game will be deleted.

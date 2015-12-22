@@ -7,14 +7,9 @@ pages:
         - 'Cards': 'cards.md'
         - 'Decks': 'decks.md'
         - 'Sets' : 'sets.md'
+        - 'Users' : 'users.md'
     - Compute Engine:
-        - 'Compute': 'compute.md'
+        - 'Introduction': 'compute.md'
         - 'Simulation': 'simulation.md'
+        - 'Rules Support' : 'rules.md'
         - 'Known Issues': 'issues.md'
-#- ['index.md', 'Introduction']
-#- ['cards.md', 'Cards']
-#- ['decks.md', 'Decks']
-#- ['sets.md', 'Sets']
-#- ['compute.md', 'Compute']
-#- ['simulation.md', 'Simulation']
-#- ['issues.md', 'Known Issues']
