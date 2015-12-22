@@ -34,3 +34,8 @@ Here are some example card texts templates that are fully supported by the compu
 - Destroy target <qualifier(s)>
 - Return target <qualifier(s)> to <zone>
 - When <qualifier(s)> enters the battlefield, <action>
+
+There are some cards that are not planned to be supported, due to how significantly they break the regular assumed rules of the game. Some examples are below.
+
+- Cards that restart the game or create subgames 
+- Cards from Un-sets are obviously not supported
