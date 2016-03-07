@@ -8,23 +8,25 @@ Note that Oracle text is used, not printed card text.
 
 The following keywords are supported:
 
+- Deathtouch
 - Defender
 - Flying
 - Haste
+- Hexproof
+- Infect
+- Lifelink
 - Reach
+- Shroud
 - Trample
+- Unblockable
 - Vigilance
 
 The following keywords are planned to be supported:
 
-- Deathtouch
 - Double Strike
 - Exalted
 - Flash
-- Hexproof
 - Indestructible
-- Lifelink
-- Shroud
 
 #Card Support
 
